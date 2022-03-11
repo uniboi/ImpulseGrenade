@@ -1,0 +1,7 @@
+{
+	"Name": "Impule Grenade",
+	"Description": "server side mod that replaces the EMP grenade with an impulse grenade",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "0.1"
+}

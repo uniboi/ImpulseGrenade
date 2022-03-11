@@ -1,0 +1,34 @@
+WeaponData
+{
+	"printname"   									"Impulse Grenade"
+	"shortprintname"								"Impulse Grenade"
+	"description" 									"Repells players"
+	"longdesc" 										"Repells players from grenade origin"
+	// Damage - When Used by Players
+	"damage_type" 									"burn"
+	"damage_near_distance"							"0"
+	"damage_far_distance" 							"0"
+	"damage_near_value"   							"0"
+	"damage_far_value"								"0"
+	"damage_near_value_titanarmor"					"0"
+	"damage_far_value_titanarmor" 					"0"
+
+	MP_BASE
+	{
+		"regen_ammo_refill_rate"						"40"
+
+		"explosion_damage"								"1"
+		"explosion_damage_heavy_armor"					"1"
+        "explosion_inner_radius"  						"75"
+        "explosionradius" 								"450"
+
+		"npc_explosion_damage"							"1"
+		"npc_explosion_damage_heavy_armor"				"1"
+
+		"grenade_ignition_time"                         "0.25"
+	}
+
+	"grenade_fuse_time"								"0.0"
+	"max_cook_time"									"1.5"
+	"deploy_time" 									"0.25"
+}

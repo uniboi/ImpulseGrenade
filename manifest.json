@@ -1,9 +1,6 @@
 {
-    "name": "ExampleMod",
+    "name": "Impulse Grenade",
     "version_number": "0.0.1",
-    "website_url": "",
-    "description": "Example mod",
-    "dependencies": [
-        "Username-Modname-1.5.0"
-    ]
+    "website_url": "github.com/uniboi",
+    "description": "Replaces the EMP with a grenade that boosts players"
 }

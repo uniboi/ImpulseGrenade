@@ -1,11 +1,8 @@
-# northstar-mod-template
-Northstar mod template for northstar.thunderstore.io compatible mods.
+# Impulse Grenade
+A simple mod that replaces the stun effect with a velocity boost.
 
-# READ!
+The added Velocity is calculated like this: `-1/radius * pow(len, 2) + radius` where `radius` is the damage radius of the grenade and `len` is the magnitude of the vector from grenade origin to player origin.
 
-Please change the folder name of Example.Mod to your mods name.
+![inverse square law example](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Illustration_of_Inverse_Square_Law%2C_extracted_from_Radiation_safety_and_control_manual%2C_June_1%2C_1961.png/640px-Illustration_of_Inverse_Square_Law%2C_extracted_from_Radiation_safety_and_control_manual%2C_June_1%2C_1961.png)
 
-Please modify the manifest.json and mod.json and change everything to your mods needs.
-Make sure the version between them both is the same.
-
-There is a empty example Squirrel script in mods/Example.Mod/mod/scripts/vscripts/. You likely want to rename and modify or replace that file.
+This mod only changes ammo refill, ignite time, deploy time, cook time, damage and velocity calculations. Unexpected behaviour may occur.
